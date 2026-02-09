@@ -36,11 +36,11 @@ if [[ -n "$HYTALE_GAME_PATH" ]]; then
     GAME_DIR="$HYTALE_GAME_PATH"
 fi
 
-SERVER_DIR="$GAME_DIR/Server"
-SERVER_JAR="$SERVER_DIR/HytaleServer.jar"
-AOT_CACHE="$SERVER_DIR/HytaleServer.aot"
-ASSETS_PATH="$SERVER_DIR/Assets.zip"
-UNIVERSE_PATH="$SERVER_DIR/universe"
+SERVER_DIR="Server"
+SERVER_JAR="HytaleServer.jar"
+AOT_CACHE="HytaleServer.aot"
+ASSETS_PATH="Assets.zip"
+UNIVERSE_PATH="universe"
 
 # ------------------------------
 # Check Java
